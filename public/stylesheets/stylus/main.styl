@@ -1,0 +1,24 @@
+
+screen_width = 600px
+w = 30rem
+
+html
+  scroll-behavior smooth
+
+@require 'partials/nav'
+
+article
+  padding-left w
+  @require 'partials/*'
+
+.container
+  padding 10rem 0 10rem 0
+  text-align center
+  label
+    text-align left
+
+@media only screen and (max-width screen_width)
+  article
+    padding-left 0
+  .container
+    padding-top 3rem

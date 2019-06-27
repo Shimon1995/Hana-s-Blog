@@ -1,0 +1,39 @@
+.portfolio
+  background #FFF9FF
+  margin 4px
+  padding 10px
+  border-radius 0.4%
+  box-shadow 0 1px 6px #d7dbdd
+  .galery
+    column-count 3
+    column-width 31%
+    .imghvr-fade
+      margin 1rem
+      background white
+      box-shadow 0 0 1rem #d7dbdd
+      border-radius 1%
+      cursor pointer
+      img
+        width 94%
+        margin-top 1.5rem
+      p
+        width 35rem
+      figcaption
+        color #ABB2B9
+        background white
+        h1
+        h2
+        h3
+        h4
+          z-index 1
+        p
+          width auto
+          z-index 1
+        &:hover
+          cursor pointer
+   @require 'modal'
+
+@media only screen and (max-width screen_width)
+  .portfolio
+    .galery
+      display inline

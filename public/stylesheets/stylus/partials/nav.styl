@@ -1,0 +1,73 @@
+
+.fa-angle-double-down
+.fa-angle-double-up
+  display none
+
+nav
+  color #D0D3D4
+  position fixed
+  left 0
+  top 0
+  background #212f3d
+  width w
+  height 100%
+  img
+    width 5rem
+    height 5rem
+  .img
+    margin 1.5rem 0 0.3rem 0
+  h4
+    margin-bottom 0
+    padding-bottom: 0
+    font-weight bold
+  .small
+    font-size 12px
+  .clearfix
+    padding 20px
+  .btn
+    font-size 18px
+  .btn:hover
+    background #ABB2B9
+    color #1B2631
+    cursor pointer
+  .purple
+    i
+      color #a569bd
+  .links
+    margin-top 30em
+    text-align center
+    a
+      color #F2F3F4
+      &:hover
+        color #515A5A
+    a
+      padding 3rem
+      i
+        font-size 2rem
+
+@media only screen and (max-width: screen_width)
+  nav
+    width 100%
+    height 70vh
+    z-index 1
+    transform: translateY(-70vh)
+    transition 0.6s
+    .links
+      margin-top 6rem
+  .fas.fa-angle-double-down
+    padding-top 10px
+    padding-left 50%
+    font-size 34px
+    position fixed
+    display block
+    z-index 1
+    transform translateY(-41px)
+    transition 0.8s
+  .fas.fa-angle-double-up
+    margin-top 63vh
+    margin-left 48%
+    font-size 34px
+    position fixed
+    display block
+    z-index 3
+    display none

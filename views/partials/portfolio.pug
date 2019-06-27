@@ -1,0 +1,22 @@
+mixin image(name, description, img_lk)
+  figure.imghvr-fade
+    img.img-mod(src=img_lk, alt="The Picture")
+    h4= name
+      figcaption 
+        h3= name
+        p= description
+  .modal
+    .wrapper
+      img.modal-content
+      .description
+          h3= name
+          p= description
+
+section.portfolio
+  .container
+    h1 Portfolio
+    p= port_preview
+    
+    .galery
+      each image in images
+        +image(image.name, image.text, image.img)
