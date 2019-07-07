@@ -1,0 +1,5 @@
+1. Add webpack
+2. Rewrite front-end scripts with rxjs
+3. Replace css with stylus
+4. Add themes variability
+5. Finish Authorization and Admin Panel
