@@ -6,7 +6,7 @@ const path = require('path');
 const { middleware: stylusMiddleware } = require('stylus');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://node-shop:HeroOfDesertTails@2@node-rest-shop-cjrek.mongodb.net/test', {useNewUrlParser: true});
+mongoose.connect('MONGO_DB_LINK', {useNewUrlParser: true});
 
 const indexRouter = require('./routes/index');
 const authRouter = require('./routes/auth');
