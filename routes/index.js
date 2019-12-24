@@ -4,18 +4,18 @@ const router = Router();
 
 const obj = [
   {
-    name: 'Suka',
-    text: 'Skiree vsego skoro sdohnu',
+    name: 'Lorem',
+    text: 'lorem ipsum dolot',
     img: '/images/portfolio/image1.jpg'
   },
   {
-    name: 'Bliat\'',
-    test: 'A mojet i niet',
+    name: 'Lorem\'',
+    test: 'lorem ipsum dolot',
     img: '/images/portfolio/image2.jpg'
   },
   {
-    name: 'Bliat\'',
-    test: 'A mojet i niet',
+    name: 'Lorem\'',
+    test: 'lorem ipsum dolot',
     img: '/images/portfolio/image3.jpg'
   }
 ];
