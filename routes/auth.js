@@ -65,7 +65,7 @@ router.post('/auth', (req, res) => {
           httpOnly: true,
           maxAge: 60 * 60 * 24 * 7,
         }));
-        res.redirect('suka');
+        res.redirect('admin');
       }
     });
   })
