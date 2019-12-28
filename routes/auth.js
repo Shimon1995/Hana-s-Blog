@@ -76,7 +76,7 @@ router.post('/auth', (req, res) => {
   });
 });
 
-router.get('/suka', checkAuth, (req, res) => {
+router.get('/admin', checkAuth, (req, res) => {
   res.json({
     say: 'hello'
   });
